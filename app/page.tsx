@@ -171,7 +171,7 @@ export default function LandingPage() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">What Our Customers Say</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Don't just take our word for it. Here's what our customers have to say.
+                  Don&apos;t just take our word for it. Here&apos;s what our customers have to say.
                 </p>
               </div>
             </div>
@@ -192,8 +192,8 @@ export default function LandingPage() {
                     </div>
                   </div>
                   <p className="mt-4 text-muted-foreground">
-                    "The team at MyCar made buying a used car so easy. The car was exactly as described, and the process
-                    was smooth from start to finish."
+                    The team at MyCar made buying a used car so easy. The car was exactly as described, and the process
+                    was smooth from start to finish.
                   </p>
                   <div className="mt-4 flex">
                     {[1, 2, 3, 4, 5].map((star) => (
@@ -306,7 +306,7 @@ export default function LandingPage() {
                     <textarea
                       id="message"
                       className="flex min-h-[120px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                      placeholder="Tell us about the car you're looking for..."
+                      placeholder="Tell us about the car you&apos;re looking for..."
                     />
                   </div>
                   <Button className="w-full">Send Message</Button>
